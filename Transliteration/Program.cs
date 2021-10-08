@@ -86,7 +86,7 @@ namespace Transliteration
                     ReadText();
                     Translit(currTranslitIndex);
                     break;
-                default:
+                case ConsoleKey.F2:
                     index = 1;
                     Clear();
                     ReadText();
